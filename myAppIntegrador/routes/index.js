@@ -6,5 +6,7 @@ const controllersHomePage = require('../controllers/controllersHomePage')
 
 
 router.get('/', controllersHomePage.home)
+router.get('/cadastro', controllersHomePage.cadastro)
+
 
 module.exports = router;
