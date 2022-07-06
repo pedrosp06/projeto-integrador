@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header section{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    border:  1px solid black;
+}
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.imagemBannerHomePage img{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+.imagemFreteSeguranca img{
+    display: flex;
+    width: 100%;
+    height: 30vh;
+}
+
+.cardsHome{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 20px;
+    width: 100%;
+    border-radius: 88px;
+    background-color: #D9D9D9;
+    height: 500px;
+    margin-top: 10%;
+    
+}
+.tituloSecaoHome{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10%;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+.tituloSecaoHome button{
+    width: 20px;
+    height: 60px;
+    margin-right: 7%;
+    background-color: #6699ff;
+    border: none;
+}
+
+
+.elementosCards{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.elementosCards button{
+    background-color: #6699ff;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 5%;
+}
+.elementosCards button:hover{
+    color: #D9D9D9;
+}
+
+
+.produtosCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+.imagemProdutosCard img{
+    width: 260px;
+    height: 300px;
+}
+.containerpaicadastroemail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+    margin-top:15% ;
+    align-items: center;
+    
+}
+.textorecebanovidades{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 3%;
+}
+
+.areaemailarrendondada{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27px;
+    border: 2px solid grey;
+    width: 80%;
+    height: 178px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.areaemailarrendondada form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+.campoDeInput{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.campoDeInput input{
+    border-radius: 10px;
+    height: 33px;
+    border: none;
+    width: 200px;
+    text-align: start;
+    margin-top: 3%;
+    background-color: #D9D9D9;
+    
+}
+form #buttoncadastrar{
+    background-color: #6699ff;
+    color: white;
+    font-size: 18px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 15px;
+}
+#buttoncadastrar:hover{
+    color: #D9D9D9;
+
+}
+
+.containerQualidadeDoProduto{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    
+}
+.containerQualidadeDoProduto article{
+    display: flex;
+    width: 100% ;
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+.containerQualidadeDoProduto img{
+    width: 100px;
+    height: auto;
+}
+.textoQualidadeDoProduto{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+.textoQualidadeDoProduto div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 10px;
+    font-size: 18px;
+}
+footer section{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    border:  1px solid black;
+}
+
+/*footer*/
+
+body footer{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(234, 234, 234);
+}
+body footer .secao-footer{
+    width: 25%;
+    padding-right: 5%;    
+}
+body footer .secao-footer h3{
+    margin-bottom: 10px; 
+    font-weight: 600;  
+}
+body footer .secao-footer a{
+    text-decoration: none; 
+    color: black;   
+}
+body footer article img{
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+body footer article div.secao-footer-social{
+    display: flex;
+    width: 25%;    
+}
+body footer article div img{
+    height: 40px;
+    margin-right: 10px;
+}
+body footer article form.form-footer{
+    display: flex;
+    flex-direction: column;
+}
+body footer article form.form-footer label{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+body footer article form.form-footer input{
+    height: 30px;
+    background: #F3F1F1;
+    border-radius: 10px;
+    border: none;
+}
+body footer article form.form-footer textarea{
+    height: 120px;
+    background: #F3F1F1;
+    border-radius: 10px;
+    border: none;
+}
+body footer article form.form-footer button{
+    background: #6699FF;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    color: white;
+}
+body footer article form.form-footer button:hover{
+    background: #2a71ff;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    color: white;
+    cursor: pointer;
+}
